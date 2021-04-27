@@ -44,7 +44,7 @@
 
         <Button
             android:id="@+id/button1"
-            android:hint="@string/button_green"
+            android:hint="@string/button_movie"
             android:layout_marginRight="18dp"
             android:layout_marginBottom="5dp"
             android:textColorHint="@color/black"

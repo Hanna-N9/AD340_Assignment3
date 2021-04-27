@@ -1,5 +1,6 @@
 package com.neergsw.ad340_assignment
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
@@ -10,10 +11,14 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-     /*First Button*/
-        var button1: Button = findViewById(R.id.button1)
+        /*First Button*/
+        var button1: Button = findViewById(R.id.button1);
+
+        //redirect activity from main activity to MovieActivity activity page
         button1.setOnClickListener {
-            Toast.makeText(this, "Clicking First Button", Toast.LENGTH_SHORT).show();
+            val intent = Intent(this, MovieList::class.java) //two arguments
+            startActivity(intent) //This start an activity to pass the intent object to it. This will take us from main activity to second activity
+
         }
 
      /*Second Button*/
