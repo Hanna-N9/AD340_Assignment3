@@ -48,4 +48,20 @@ dependencies {
 
     // Card View
     implementation "androidx.cardview:cardview:1.0.0"
+
+    // Retrofit
+    implementation "com.squareup.retrofit2:retrofit:2.9.0"
+
+    // Converter for JSON
+    implementation 'com.squareup.retrofit2:converter-gson:2.9.0'
+
+    //Picasso
+    implementation 'com.squareup.picasso:picasso:2.8'
+
+    //Glide Library
+    implementation 'com.github.bumptech.glide:glide:4.12.0'
+
+    //logging
+    implementation 'com.squareup.okhttp3:logging-interceptor:4.9.1'
+
 }

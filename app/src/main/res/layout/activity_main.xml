@@ -54,7 +54,7 @@
 
         <Button
             android:id="@+id/button2"
-            android:hint="@string/button_yellow"
+            android:hint="@string/button_camera"
             android:textColorHint="@color/black"
             android:backgroundTint="@color/gray"
             android:layout_width="wrap_content"

@@ -25,7 +25,9 @@ class MainActivity : AppCompatActivity() {
         var button2: Button = findViewById(R.id.button2);
 
         button2.setOnClickListener {
-            Toast.makeText(this, "Clicking Second Button", Toast.LENGTH_SHORT).show();
+            val intent = Intent(this, CameraActivity::class.java) //two arguments
+            startActivity(intent) //From main activity to second activity
+
         }
 
      /*Third Button*/
