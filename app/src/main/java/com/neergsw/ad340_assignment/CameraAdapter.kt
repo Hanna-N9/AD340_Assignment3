@@ -6,8 +6,7 @@ import android.view.ViewGroup
 import android.widget.ImageView
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
-import com.squareup.picasso.Picasso
-
+import com.bumptech.glide.Glide
 
 class CameraAdapter(
     private val dataList: List<Camera>
@@ -24,10 +23,10 @@ class CameraAdapter(
             theDesc.text = data.description
 /*
 Glide or Picasso (both work)
-            Glide.with(itemView).load(IMAGE_BASE + data.poster).into(imgSrc)
+            Picasso.get().load(IMAGE_BASE + data.imageURL).into(imgSrc)
 */
-            Picasso.get()
-                .load(IMAGE_BASE + data.imageURL).into(imgSrc)
+            Glide.with(itemView).load(IMAGE_BASE + data.imageURL).into(imgSrc)
+
         }
     }
 

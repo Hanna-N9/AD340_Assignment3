@@ -27,14 +27,14 @@ class MainActivity : AppCompatActivity() {
         button2.setOnClickListener {
             val intent = Intent(this, CameraActivity::class.java) //two arguments
             startActivity(intent) //From main activity to second activity
-
         }
 
      /*Third Button*/
         var button3: Button = findViewById(R.id.button3);
 
         button3.setOnClickListener {
-            Toast.makeText(this, "Clicking Third Button", Toast.LENGTH_SHORT).show();
+            val intent = Intent(this, MapActivity::class.java) //two arguments
+            startActivity(intent) //From main activity to second activity
         }
 
      /*Fourth Button*/

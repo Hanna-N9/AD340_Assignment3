@@ -62,7 +62,7 @@
 
         <Button
             android:id="@+id/button3"
-            android:hint="@string/button_red"
+            android:hint="@string/button_map"
             android:textColorHint="@color/black"
             android:backgroundTint="@color/gray"
             android:layout_width="wrap_content"

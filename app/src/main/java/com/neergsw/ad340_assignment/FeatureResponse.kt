@@ -20,5 +20,4 @@ import com.google.gson.annotations.SerializedName
 data class FeatureResponse(
         @SerializedName("Features")
         val getCamera : List<Camera>
-
 )

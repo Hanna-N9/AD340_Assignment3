@@ -16,6 +16,7 @@ data class Camera(
 
         @SerializedName("Type")
         val type: String
+
 )
 
 
