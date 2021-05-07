@@ -55,8 +55,8 @@ class CameraActivity : AppCompatActivity() {
 
             override fun onFailure(call: Call<JsonObject>, t: Throwable) {
                 TODO("Not yet implemented")
-            }
 
+            }
         })
 
 //backButton

@@ -18,7 +18,6 @@ class MainActivity : AppCompatActivity() {
         button1.setOnClickListener {
             val intent = Intent(this, MovieList::class.java) //two arguments
             startActivity(intent) //This start an activity to pass the intent object to it. This will take us from main activity to second activity
-
         }
 
      /*Second Button*/
@@ -27,6 +26,7 @@ class MainActivity : AppCompatActivity() {
         button2.setOnClickListener {
             val intent = Intent(this, CameraActivity::class.java) //two arguments
             startActivity(intent) //From main activity to second activity
+
         }
 
      /*Third Button*/
