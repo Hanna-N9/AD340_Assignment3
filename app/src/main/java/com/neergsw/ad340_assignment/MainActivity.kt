@@ -33,7 +33,7 @@ class MainActivity : AppCompatActivity() {
         var button3: Button = findViewById(R.id.button3);
 
         button3.setOnClickListener {
-            val intent = Intent(this, MapActivity::class.java) //two arguments
+            val intent = Intent(this, MapsActivity::class.java) //two arguments
             startActivity(intent) //From main activity to second activity
         }
 
