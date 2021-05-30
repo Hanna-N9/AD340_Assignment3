@@ -91,6 +91,10 @@ class MainActivity : AppCompatActivity() {
             edit_password.error = "Password is required"
             edit_password.requestFocus()
             return
+        }else if(userName.isEmpty()) {
+            edit_name.error = "Please add your name"
+            edit_name.requestFocus()
+            return
         }
 
     // 2 - save valid entries to shared preferences
