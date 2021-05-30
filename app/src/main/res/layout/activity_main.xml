@@ -4,7 +4,6 @@
     android:layout_marginLeft="16dp"
     android:layout_marginTop="10dp"
     xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -17,16 +16,42 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content">
 
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
         <EditText
-            android:id="@+id/edit"
-            android:hint="@string/entry_field"
+            android:id="@+id/edit_name"
+            android:hint="@string/entry_name"
+            android:inputType="textPersonName"
+            android:width="190dp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content" />
 
+
+            <EditText
+            android:id="@+id/edit_email"
+            android:hint="@string/entry_email"
+            android:width="190dp"
+            android:inputType="textEmailAddress"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <EditText
+            android:id="@+id/edit_password"
+            android:hint="@string/entry_password"
+            android:width="190dp"
+            android:inputType="textPassword"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        </LinearLayout> <!--Ends 1st Vertical orientation-->
+
         <Button
-            android:id="@+id/button"
+            android:id="@+id/button_login"
             android:hint="@string/button_send"
-            android:layout_marginLeft="18dp"
+            android:layout_marginLeft="7dp"
             android:textColorHint="@color/black"
             android:backgroundTint="@color/gray"
             android:textStyle="bold"
@@ -39,6 +64,7 @@
 
     <GridLayout
         android:columnCount="2"
+        android:layout_marginTop="15dp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content">
 
@@ -76,9 +102,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"/>
 
-
     </GridLayout>
 
-
-</LinearLayout> <!--Ends Vertical orientation-->
+</LinearLayout> <!--Ends 2nd Vertical orientation-->
 

@@ -1,11 +1,15 @@
 <resources>
-    <string name="app_name">HW 5 - Location</string>
-    <string name="entry_field">Type Here</string>
-    <string name="button_send">Send</string>
+    <string name="app_name">HW 6 - Data Persistence</string>
+    <string name="entry_name">Enter Name</string>
+    <string name="entry_email">Email</string>
+    <string name="entry_password">Password</string>
+    <string name="button_send">Login</string>
 
     <string name="button_movie">Movies</string>
     <string name="button_camera">Camera</string>
     <string name="button_map">Map</string>
     <string name="button_blue">Blue</string>
     <string name="title_activity_maps">Traffic Cam Map</string>
+    <string name="title_activity_firebase">Firebase AD340 Team</string>
+
 </resources>
